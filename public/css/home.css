@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+h1 {
+  font-size: 20pt;
+  position: absolute;
+  left: 50%;
+}
+
+.table {
+  position: absolute;
+  left: 20%;
+}
+table {
+  table-layout: fixed;
+  border-spacing: 80px;
+}
+
+.homeImg {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+}

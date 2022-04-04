@@ -1,0 +1,29 @@
+body {
+  position: relative;
+}
+
+#header {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+  color: rgb(172, 37, 77);
+}
+
+#selected {
+  position: absolute;
+  margin-top: 60px;
+  left: 30%;
+  width: 800px;
+  height: 700px;
+}
